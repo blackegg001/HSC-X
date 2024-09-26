@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Subject</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .grid-item div {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .grid-item:hover div {
+            color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Select a Subject</h1>
+    <div class="grid-container">
+        <a href="index.html#mathadv" class="grid-item">
+            <img src="icons/matadv.png" alt="Mathadv Icon">
+            <div>Math Advanced</div>
+        </a>
+        <a href="index.html#mathex2" class="grid-item">
+            <img src="icons/matex2.png" alt="Mathex2 Icon">
+            <div>Math Extension 2</div>
+        </a>
+        <a href="index.html#mathex1" class="grid-item">
+            <img src="icons/matex1.png" alt="Mathex1 Icon">
+            <div>Math Extension 1</div>
+        </a>
+        <a href="index.html#physics" class="grid-item">
+            <img src="icons/physcis.png" alt="Physics Icon">
+            <div>Physics</div>
+        </a>
+        <a href="index.html#engadv" class="grid-item">
+            <img src="icons/engadv.png" alt="Englishadv Icon">
+            <div>English Advanced</div>
+        </a>
+        <!-- Add more subjects as needed -->
+        <a href="index.html#Chemistry" class="grid-item">
+            <img src="icons/chm.png" alt="Chemistry Icon">
+            <div>Chemistry</div>
+        </a>
+        <a href="index.html#economics" class="grid-item">
+            <img src="icons/eco.png" alt="Economics Icon">
+            <div>Economics</div>
+        </a>
+    </div>
+    
+</body>
+</html>

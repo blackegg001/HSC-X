@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Study Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .cover-container {
+            text-align: center;
+        }
+
+        .cover-container h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .cover-container p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .cover-container button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cover-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <h1>Welcome to HSC-X</h1>
+        <p>Your gateway to organized and free-to-access study resources</p>
+        <button onclick="enterSite()">Enter</button>
+    </div>
+
+    <script>
+        function enterSite() {
+            window.location.href = 'subject_selection.html';
+        }
+    </script>
+</body>
+</html>
